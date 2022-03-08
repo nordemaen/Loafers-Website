@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,13 +8,61 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Loafer's Taunton</title>
 </head>
+
 <body>
     <!-- Navigation -->
-
+    <nav>
+        <div class="max-w-7xl mx-auto border-b-2 border-secondary">
+            <div class="flex justify-around">
+                <div>
+                    <h1 class="flex text-2xl p-4">Loafer's Sandwich Bar</h1>
+                </div>
+                <div class="hidden md:flex items-center space-x-3">
+                    <a href="#" class="p-5 underline underline-offset-2">Home</a>
+                    <a href="menu.html" class="p-5">Menu</a>
+                    <a href="contact.html" class="p-5">Contact</a>
+                    <a href="" class="p-5">More</a>
+                </div>
+                <!-- Mobile Navigation-->
+                <div class="md:hidden flex items-center">
+                    <a id="mobile-toggle" class="m-4 p-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                        </svg>
+                    </a>
+                    <div id="mobile-menu" class="md:hidden hidden">
+                        <a href="#" class="block p-5 underline underline-offset-2">Home</a>
+                        <a href="menu.html" class="block p-5">Menu</a>
+                        <a href="contact.html" class="block p-5">Contact</a>
+                        <a href="" class="block p-5">More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
     <!-- Hero -->
-
+    <header class="flex justify-center p-24">
+        <div class="flex">
+            <img src="assets/media/banner.jpg" alt="Banner of Sandwiches" class="rounded shadow-2xl mx-10 h-64 w-128">
+            <div class="my-auto mx-10">
+                <h1 class="text-3xl text-secondary font-bold">Loafer's Taunton</h1>
+                <p class="w-96">
+                    Welcome to Loafer's Taunton 🍞 Sandwich Bar, we've been serving within Taunton since 1978!
+                </p>
+                <div class="space-x-8 py-6">
+                    <a class="font-bold block text-center bg-primary py-4 px-8 rounded text-black hover:shadow-xl transition duration-300"
+                        href="menu.html" target="_blank">Our Menu</a>
+                </div>
+            </div>
+        </div>
+    </header>
     <!-- Content -->
 
     <!-- Footer -->
+
+    <!-- Script Heiarchy -->
+    <script src="assets/js/mobile.js"></script>
 </body>
+
 </html>
