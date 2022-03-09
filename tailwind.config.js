@@ -7,7 +7,13 @@ module.exports = {
         primary: '#cbdce0',
         secondary: '#9bb7bd'
       }
+    },
+    fontFamily: { 
+      roboto: ['Roboto', 'sans-serif']
+    },
+    variants: {
+      extend: {}
     }
   },
-  plugins: [],
+  plugins: []
 }

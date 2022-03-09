@@ -1,8 +1,13 @@
 /*Custom Font*/
-/*ADD FROM GOOGLE FONTS*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 /*Import Tailwind Styling from Library*/
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    h1 {
+        @apply font-roboto;
+    }
+}

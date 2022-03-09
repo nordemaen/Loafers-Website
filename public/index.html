@@ -61,39 +61,10 @@
         </div>
     </header>
     <!-- Content -->
-    <div class="flex flex-column justify-center">
-        <div class="flex flex-row flex-wrap">
-            <div class="max-w-fit flex p-6 m-4 bg-white rounded-lg shadow-xl">
-                <img src="assets/media/person-1.jpg" alt="Employee Picture" class="h-24 w-24 rounded">
-                <div class="ml-6 pt-1">
-                    <h2>John Doe – Manager</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, eveniet!</p>
-                </div>
-            </div>
-        </div>
-        <div class="flex flex-row flex-wrap">
-            <div class="max-w-fit flex p-6 m-4 bg-white rounded-lg shadow-xl">
-                <img src="assets/media/person-2.jpg" alt="Employee Picture" class="h-24 w-24 rounded">
-                <div class="ml-6 pt-1">
-                    <h2>John Doe – Sandwich Artist</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, eveniet!</p>
-                </div>
-            </div>
-        </div>
-        <div class="flex flex-row flex-wrap">
-            <div class="max-w-fit flex p-6 m-4 bg-white rounded-lg shadow-xl">
-                <img src="assets/media/person-3.jpg" alt="Employee Picture" class="h-24 w-24 rounded">
-                <div class="ml-6 pt-1">
-                    <h2>John Doe – Financial</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, eveniet!</p>
-                </div>
-            </div>
-        </div>
+    <div class="container">
     </div>
-
     <!-- Auto Scroll Button -->
-    <button id="scrollToggle"
-        class="text-center bg-primary p-4 rounded-full hover:shadow-xl transition duration-300">
+    <button id="scrollToggle" class="text-center bg-primary p-4 rounded-full hover:shadow-xl transition duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
             stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round"
@@ -102,7 +73,38 @@
     </button>
 
     <!-- Footer -->
-    
+    <!-- Add Icons -->
+    <footer>
+        <div class="bg-primary p-10">
+            <div class="max-w-7xl mx-auto">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2">
+                    <div class="m-5">
+                        <h2 class="text-gray-600">
+                            <strong>Our Location</strong>
+                        </h2>
+                        <p class="text-gray-500">10 Bath Place<br>Taunton<br>TA1 4ER</p>
+                    </div>
+                    <div class="m-5">
+                        <h2 class="text-gray-600">
+                            <strong>Sitemap</strong>
+                        </h2>
+                        <ul class="text-gray-500">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Menu</a></li>
+                            <li><a href="#">Contact</a></li>
+                            <li><a href="#">Sign-up</a></li>
+                            <li><a href="#">Login</a></li>
+                        </ul>
+                    </div>
+                    <div class="m-5"></div>
+                    <div class="m-5"></div>
+                </div>
+            </div>
+        </div>
+        <div class="bg-secondary flex justify-center p-5">
+            <small>&copy; 2022 Loafer's Sandwich Bar – All Rights Reserved</small>
+        </div>
+    </footer>
 
     <!-- Script Heiarchy -->
     <script src="assets/js/mobile.js"></script>
