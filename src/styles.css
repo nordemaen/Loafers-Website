@@ -7,7 +7,7 @@
 @tailwind utilities;
 
 @layer base {
-    h1 {
-        @apply font-roboto;
+    html {
+        font-family: 'Roboto', sans-serif;
     }
 }

@@ -9,30 +9,52 @@
     <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Loafer's Taunton</title>
+
 </head>
 
 <body>
     <!-- Navigation -->
     <nav>
         <div class="max-w-7xl mx-auto border-b-2 border-secondary">
-            <div class="flex justify-around">
-                <div>
-                    <h1 class="flex text-2xl p-4">Loafer's Sandwich Bar</h1>
-                </div>
+            <div class="flex justify-around items-center">
+                <a href="account.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round"
+                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                    </svg>
+                </a>
+                <h1 class="text-2xl">Loafer's Sandwich Bar</h1>
                 <div class="hidden md:flex items-center space-x-3">
                     <a href="#" class="p-5 underline underline-offset-2">Home</a>
                     <a href="menu.html" class="p-5">Menu</a>
                     <a href="contact.html" class="p-5">Contact</a>
                     <a href="" class="p-5">More</a>
+                    <a href="basket.html">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-gray-500" fill="none" viewBox="0 0 24 24"
+                            stroke="currentColor" stroke-width="2">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                        </svg>
+                    </a>
                 </div>
                 <!-- Mobile Navigation-->
                 <div class="md:hidden flex items-center">
-                    <a id="mobile-toggle" class="m-4 p-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                            stroke="currentColor" stroke-width="2">
-                            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
-                        </svg>
-                    </a>
+                    <div class="m-4 m4">
+                        <a href="basket.html">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline text-gray-500" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
+                            </svg>
+                        </a>
+                        <a id="mobile-toggle">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline text-gray-500" fill="none" viewBox="0 0 24 24"
+                                stroke="currentColor" stroke-width="2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
+                            </svg>
+                        </a>
+                    </div>
                     <div id="mobile-menu" class="md:hidden hidden">
                         <a href="#" class="block p-5 underline underline-offset-2">Home</a>
                         <a href="menu.html" class="block p-5">Menu</a>
@@ -45,10 +67,10 @@
     </nav>
     <!-- Hero -->
     <header>
-        <div class="flex justify-around mx-auto">
+        <div class="flex justify-center mx-auto my-10">
             <img src="assets/media/banner.jpg" alt="Banner of Sandwiches" class="rounded shadow-2xl mx-10 h-64 w-128">
             <div class="my-auto mx-10">
-                <h1 class="text-3xl text-secondary font-bold">Loafer's Taunton</h1>
+                <h1 class="text-3xl font-bold">Loafer's Taunton</h1>
                 <p class="pt-2">
                     Situated in Somerset's county town of Taunton, Loafers has been open since 1978 and is still
                     offering a great selection of hot & cold food from our shop located on historic Bath Place.
@@ -65,58 +87,48 @@
         </div>
     </header>
     <!-- Content -->
-    <div class="flex justify-center items-center">
-        <div class="flex max-w-fit p-4">
-            <div class="rounded-t-lg border border-gray-200 shadow-md">
-                <img src="assets/media/salad.jpg" alt="Image of Salad" class="rounded-t-md">
-                <div class="p-3">
-                    <h2 class="text-2xl">Salads</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iure enim debitis dicta
-                        minus
-                        est praesentium dolor numquam et veniam.
-                    </p>
-                    <a class="font-bold block text-center bg-primary p-4 mt-4 rounded text-black hover:shadow-sm transition duration-300"
-                        href="menu.html#salads" target="_blank">View Salads</a>
-                </div>
-            </div>
+    <!---->
+    <div class="grid grids-col-1 lg:grid-cols-3 space-x-5">
+        <div class="rounded-t-md border border-gray-200 shadow-md">
+            <img src="assets/media/salad-bar.jpg" alt="Image of Salad" class="rounded-t-md h-64 w-128">
+            <h2 class="text-2xl">Salad Bar</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iure enim debitis dicta
+                minus est praesentium dolor numquam et veniam.
+            </p>
+            <a class="font-bold block text-center bg-primary p-4 mt-4 rounded text-black hover:shadow-sm transition duration-300"
+                href="menu.html#salads" target="_blank">View Salads</a>
         </div>
-        <div class="flex max-w-fit p-4">
-            <div class="rounded-md border border-gray-200 shadow-md">
-                <img src="assets/media/sandwich.jpg" alt="Image of Sandwich" class="rounded-t-md">
-                <div class="p-3">
-                    <h2 class="text-2xl">Sandwiches</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iure enim debitis dicta
-                        minus
-                        est praesentium dolor numquam et veniam.
-                    </p>
-                    <a class="font-bold block text-center bg-primary p-4 mt-4 rounded text-black hover:shadow-sm transition duration-300"
-                        href="menu.html#sandwich" target="_blank">View Sandwiches</a>
-                </div>
-            </div>
+        <div class="rounded-t-md border border-gray-200 shadow-md">
+            <img src="assets/media/sandwich.jpg" alt="Image of Sandwich" class="rounded-t-md h-64 w-128">
+            <h2 class="text-2xl">Sandwiches</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iure enim debitis dicta
+                minus
+                est praesentium dolor numquam et veniam.
+            </p>
+            <a class="font-bold block text-center bg-primary p-4 mt-4 rounded text-black hover:shadow-sm transition duration-300"
+                href="menu.html#sandwich" target="_blank">View Sandwiches</a>
         </div>
-        <div class="flex max-w-fit p-4">
-            <div class="rounded-md border border-gray-200 shadow-md">
-                <img src="assets/media/panini.jpg" alt="Image of Panini" class="rounded-t-md">
-                <div class="p-3">
-                    <h2 class="text-2xl">Paninis</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iure enim debitis dicta
-                        minus
-                        est praesentium dolor numquam et veniam.
-                    </p>
-                    <a class="font-bold block text-center bg-primary p-4 mt-4 rounded text-black hover:shadow-sm transition duration-300"
-                        href="menu.html#panini" target="_blank">View Paninis</a>
-                </div>
-            </div>
+        <div class="md:items-center rounded-t-md  border border-gray-200 shadow-md">
+            <img src="assets/media/panini.jpg" alt="Image of Panini" class="rounded-t-md h-64 w-128">
+            <h2 class="text-2xl">Paninis</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus iure enim debitis dicta
+                minus
+                est praesentium dolor numquam et veniam.
+            </p>
+            <a class="font-bold block text-center bg-primary p-4 mt-4 rounded text-black hover:shadow-sm transition duration-300"
+                href="menu.html#panini" target="_blank">View Paninis</a>
         </div>
     </div>
-    <!-- Auto Scroll Button -->
-    <button id="scrollToggle" class="text-center bg-secondary p-4 rounded-full hover:shadow-xl transition duration-300">
-        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
-            stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round"
-                d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z" />
-        </svg>
-    </button>
+    <!-- Loyalty Scheme -->
+    <div class="flex justify-center">
+        <div class="my-auto mx-5">
+            <h1 class="text-3xl font-bold">Loyalty Scheme</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur atque cum quas laborum ipsum deleniti
+                quia sint numquam pariatur itaque.</p>
+        </div>
+        <img src="assets/media/placeholder.png" alt="Loyalty Scheme" class="rounded shadow-2xl mx-10 h-64 w-128">
+    </div>
     <!-- Footer -->
     <footer>
         <div class="bg-primary p-10">
@@ -202,6 +214,14 @@
             <small>&copy; 2022 Loafer's Sandwich Bar – All Rights Reserved</small>
         </div>
     </footer>
+    <!-- Auto Scroll Button -->
+    <button id="scrollToggle" class="text-center bg-secondary p-4 rounded-full hover:shadow-xl transition duration-300">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+            stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round"
+                d="M9 11l3-3m0 0l3 3m-3-3v8m0-13a9 9 0 110 18 9 9 0 010-18z" />
+        </svg>
+    </button>
     <!-- Script Heiarchy -->
     <script src="assets/js/mobile.js"></script>
     <script src="assets/js/scroll.js"></script>
