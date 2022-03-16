@@ -67,35 +67,58 @@
         </div>
     </nav>
     <main>
-        <div class="flex justify-center items-center my-16">
-            <div class="my-auto text-center p-2">
-                <h1 class="text-3xl font-bold">Our Location</h1>
-                <p class="p-2">
-                    Come visit our Sandwich Bar in-person, experience real food within Taunton. 
-                    If you wish to contact use, use the following contact-form.
-                </p>
-                <p class="p-2">
-                    Alternatively, you can reach out by phone <strong>01823 337593</strong>
-                    or email <strong>sandwiches@me.com</strong>
-                </p>
+        <section>
+            <div class="flex justify-center items-center">
+                <img src="assets/media/outside.jpg" alt="Outside Loafers" class="rounded shadow-md mx-10 w-96">
+                <div class="flex">
+                    <h1 class="text-3xl font-bold">Our Location</h1>
+                    <p class="p-2">
+                        Come visit our Sandwich Bar in-person, experience real food within Taunton.
+                        If you wish to contact us, use the following contact-form.
+                    </p>
+                    <p>
+                        Alternatively, you can reach out by phone <strong>01823 337593</strong>
+                        or email <strong>sandwiches@me.com</strong>
+                    </p>
+                </div>
             </div>
-        </div>
+        </section>
         <!-- Maps -->
+        <!-- Contact -->
         <section>
             <div class="flex justify-center mx-auto my-10">
                 <div class="my-auto mx-24">
-                    <h1 class="text-3xl font-bold">Directions</h1>
-                    <p class="pt-2">
-                        10 Bath Place<br>
-                        Taunton<br>
-                        Somerset<br>
-                        England<br>
-                        TA1 4ER
-                    </p>
+                    <form>
+                        <legend class="text-2xl pb-3">Contact Us</legend>
+                        <fieldset class="pb-2">
+                            <label for="name" class="block text-sm text-gray-500 pb-2">Full Name</label>
+                            <input type="text"
+                                class="block w-full border-secondary border-b-2 caret-slate-400 outline-none hover:ease-in"
+                                name="name" />
+                        </fieldset>
+                        <fieldset class="pb-2">
+                            <label for="email" class="block text-sm text-gray-500 pb-2">Email</label>
+                            <input type="text"
+                                class="block w-full border-secondary border-b-2 caret-slate-400 outline-none hover:ease-in"
+                                name="email" />
+                        </fieldset>
+                        <fieldset class="pb-2">
+                            <label for="email" class="block text-sm text-gray-500 pb-2">Subject</label>
+                            <input type="text"
+                                class="block w-full border-secondary border-b-2 caret-slate-400 outline-none hover:ease-in"
+                                name="subject" />
+                        </fieldset>
+                        <fieldset class="pb-2">
+                            <label for="message" class="block text-sm text-gray-500 pb-2">Message</label>
+                            <textarea
+                                class="block w-full border-secondary border-b-2 caret-slate-400 outline-none"></textarea>
+                        </fieldset>
+                    </form>
                 </div>
                 <iframe width="600" height="500" id="gmap_canvas"
                     src="https://maps.google.com/maps?q=10%20Bath%20Place,%20Taunton&t=&z=13&ie=UTF8&iwloc=&output=embed"
-                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0" class="rounded-lg shadow-md border-l-2 border-b-2 border-secondary">
+                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+                    class="rounded-lg shadow-md border-l-2 border-b-2 border-secondary">
                 </iframe>
         </section>
     </main>
