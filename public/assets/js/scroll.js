@@ -11,9 +11,6 @@ scrollTop.addEventListener("click", function() {
     });
 });
 
-// Find Way to change CSS to TailWind
-// add smooth transition
-
 function checkScroll() {
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         scrollTop.style.display = 'block';
