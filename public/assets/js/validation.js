@@ -11,14 +11,14 @@ document.getElementById('confirm').addEventListener('click', function () {
     // Check if checkbox is set to state of 'false'
     if (!checkBox.checked) {
         // Change styling and contents of label
-        let error = document.getElementById("alert-user").style.fontWeight = "bold";
-        let errorMsg = document.getElementById("alert-user").innerHTML = "Confirm Details*";
+        error = document.getElementById("alert-user").style.fontWeight = "bold";
+        errorMsg = document.getElementById("alert-user").innerHTML = "Confirm Details*";
     }
     // Check if checkbox is set to state of 'true'
     else if (checkBox.checked) {
         // If input-fields are empty, change contents of hidden label
         if (username == "" || email == "" || subject == "" || message == "") {
-            let alertUser = document.getElementById("error-message").innerHTML = "All fields are not completed";
+            alertUser = document.getElementById("error-message").innerHTML = "All fields are not completed";
         }
         // Alert use that message has been recieved, refresh page
         else {
