@@ -13,6 +13,7 @@ document.getElementById('confirm').addEventListener('click', function () {
         // Change styling and contents of label
         error = document.getElementById("alert-user").style.fontWeight = "bold";
         errorMsg = document.getElementById("alert-user").innerHTML = "Confirm Details*";
+        alert("Check the Box to confirm your details are correct")
     }
     // Check if checkbox is set to state of 'true'
     else if (checkBox.checked) {

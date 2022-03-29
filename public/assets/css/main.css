@@ -663,6 +663,10 @@ html {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid-cols-2{
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .grid-rows-4{
   grid-template-rows: repeat(4, minmax(0, 1fr));
 }
@@ -803,16 +807,16 @@ html {
   padding: 1.25rem;
 }
 
-.p-4{
-  padding: 1rem;
-}
-
 .p-10{
   padding: 2.5rem;
 }
 
 .p-2{
   padding: 0.5rem;
+}
+
+.p-4{
+  padding: 1rem;
 }
 
 .p-16{
@@ -1055,6 +1059,12 @@ html {
   border-color: rgb(155 183 189 / var(--tw-border-opacity));
 }
 
+@media (min-width: 640px){
+  .sm\:w-48{
+    width: 12rem;
+  }
+}
+
 @media (min-width: 768px){
   .md\:flex{
     display: flex;
@@ -1062,6 +1072,10 @@ html {
 
   .md\:hidden{
     display: none;
+  }
+
+  .md\:w-96{
+    width: 24rem;
   }
 
   .md\:grid-cols-2{
@@ -1076,6 +1090,10 @@ html {
 @media (min-width: 1024px){
   .lg\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .lg\:grid-cols-6{
+    grid-template-columns: repeat(6, minmax(0, 1fr));
   }
 
   .lg\:gap-6{

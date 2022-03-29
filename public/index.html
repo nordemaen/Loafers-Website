@@ -8,11 +8,8 @@
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="icon" type="image/x-icon" href="assets/media/bread.ico">
-
     <title>Loafer's Taunton</title>
-
 </head>
-
 <body>
     <!-- Navigation -->
     <nav>
@@ -76,7 +73,7 @@
                     The best Sandwich shop within Taunton and Somerset
                 </p>-->
                 <a class="font-bold block text-center bg-primary py-4 px-8 rounded text-black hover:shadow-xl transition duration-300"
-                    href="menu.html" target="_blank">Our Menu</a>
+                    href="menu.html" target="_blank">Loafer's Taunton</a>
             </div>
         </div>
     </header>
@@ -216,7 +213,8 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                             </svg>
-                            <a href="phone:01823 337593" class="hover:text-gray-700 transition duration-300"><strong>01823 337593</strong></a>
+                            <a href="phone:01823 337593"
+                                class="hover:text-gray-700 transition duration-300"><strong>01823 337593</strong></a>
                         </p>
                         <p class="text-gray-500 pb-3">
                             <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 inline" fill="none"
@@ -224,7 +222,8 @@
                                 <path stroke-linecap="round" stroke-linejoin="round"
                                     d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                             </svg>
-                            <a href="mailto:sandwiches@me.com?subject=Contact from our Site" class="hover:text-gray-700 transition duration-300">sandwiches@me.com</a>
+                            <a href="mailto:sandwiches@me.com?subject=Contact from our Site"
+                                class="hover:text-gray-700 transition duration-300">sandwiches@me.com</a>
                         </p>
                     </div>
                     <div class="m-5">
@@ -243,12 +242,11 @@
                     <div class="m-5">
                         <h2 class="text-gray-600"><strong>Loafer's Newsletter</strong></h2>
                         <p class="pb-5 text-gray-500">Join our Newsletter for updates! Promotions, updates and more!</p>
-                        <form action="">
-                            <input type="text" class="text-gray-500 w-2/3 p-2 focus:border-secondary rounded-sm"
-                                placeholder="youremail@domain.co.uk">
-                            <button
-                                class="font-bold text-center bg-secondary p-2 text-gray-500 hover:text-gray-700 transition duration-300">Subscribe</button>
-                        </form>
+                        <input type="text" id="subscribe-input"
+                            class="text-gray-500 w-2/3 p-2 focus:border-secondary rounded-sm"
+                            placeholder="youremail@domain.co.uk">
+                        <button id="subscribe"
+                            class="font-bold text-center bg-secondary p-2 text-gray-500 hover:text-gray-700 transition duration-300">Subscribe</button>
                     </div>
                 </div>
                 <div class="flex justify-center items-center">
@@ -292,7 +290,8 @@
         </div>
     </footer>
     <!-- Auto Scroll Button -->
-    <button id="scrollToggle" class="text-center bg-secondary p-4 rounded-full hover:shadow-xl transition ease-in duration-300">
+    <button id="scrollToggle"
+        class="text-center bg-secondary p-4 rounded-full hover:shadow-xl transition ease-in duration-300">
         <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"
             stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round"
@@ -302,6 +301,7 @@
     <!-- Script Heiarchy -->
     <script src="assets/js/mobile.js"></script>
     <script src="assets/js/scroll.js"></script>
+    <script src="assets/js/newsletter.js"></script>
 </body>
 
 </html>
