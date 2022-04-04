@@ -552,11 +552,6 @@ html {
   margin-bottom: auto;
 }
 
-.mx-24{
-  margin-left: 6rem;
-  margin-right: 6rem;
-}
-
 .mx-5{
   margin-left: 1.25rem;
   margin-right: 1.25rem;
@@ -804,6 +799,11 @@ html {
   padding: 1rem;
 }
 
+.px-20{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+
 .py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -814,6 +814,11 @@ html {
   padding-right: 1.25rem;
 }
 
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
 .py-24{
   padding-top: 6rem;
   padding-bottom: 6rem;
@@ -822,11 +827,6 @@ html {
 .px-8{
   padding-left: 2rem;
   padding-right: 2rem;
-}
-
-.py-10{
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
 }
 
 .py-6{
@@ -842,16 +842,6 @@ html {
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
-}
-
-.py-5{
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
-.px-20{
-  padding-left: 5rem;
-  padding-right: 5rem;
 }
 
 .pb-3{
@@ -1055,10 +1045,6 @@ html {
     width: 18rem;
   }
 
-  .sm\:w-48{
-    width: 12rem;
-  }
-
   .sm\:w-96{
     width: 24rem;
   }
@@ -1075,18 +1061,6 @@ html {
 
   .md\:w-96{
     width: 24rem;
-  }
-
-  .md\:w-3\/5{
-    width: 60%;
-  }
-
-  .md\:w-1\/4{
-    width: 25%;
-  }
-
-  .md\:w-1\/2{
-    width: 50%;
   }
 
   .md\:grid-cols-2{
