@@ -603,10 +603,6 @@ html {
   height: 1.5rem;
 }
 
-.h-96{
-  height: 24rem;
-}
-
 .h-24{
   height: 6rem;
 }
@@ -623,16 +619,16 @@ html {
   width: 66.666667%;
 }
 
+.w-24{
+  width: 6rem;
+}
+
 .w-96{
   width: 24rem;
 }
 
 .w-full{
   width: 100%;
-}
-
-.w-24{
-  width: 6rem;
 }
 
 .max-w-7xl{
@@ -647,16 +643,8 @@ html {
   grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
-.grid-cols-3{
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .grid-cols-2{
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-rows-4{
-  grid-template-rows: repeat(4, minmax(0, 1fr));
 }
 
 .flex-wrap{
@@ -695,6 +683,12 @@ html {
   --tw-space-x-reverse: 0;
   margin-right: calc(0.75rem * var(--tw-space-x-reverse));
   margin-left: calc(0.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-10 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
 .space-x-8 > :not([hidden]) ~ :not([hidden]){
@@ -810,10 +804,6 @@ html {
   padding: 1rem;
 }
 
-.p-16{
-  padding: 4rem;
-}
-
 .py-2{
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -834,6 +824,11 @@ html {
   padding-right: 2rem;
 }
 
+.py-10{
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+
 .py-6{
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -847,6 +842,16 @@ html {
 .px-3{
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+}
+
+.py-5{
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.px-20{
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .pb-3{
@@ -1046,32 +1051,16 @@ html {
 }
 
 @media (min-width: 640px){
-  .sm\:h-32{
-    height: 8rem;
-  }
-
-  .sm\:h-48{
-    height: 12rem;
+  .sm\:w-72{
+    width: 18rem;
   }
 
   .sm\:w-48{
     width: 12rem;
   }
 
-  .sm\:w-40{
-    width: 10rem;
-  }
-
-  .sm\:w-72{
-    width: 18rem;
-  }
-
-  .sm\:w-24{
-    width: 6rem;
-  }
-
-  .sm\:grid-cols-1{
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+  .sm\:w-96{
+    width: 24rem;
   }
 }
 
@@ -1084,24 +1073,24 @@ html {
     display: none;
   }
 
-  .md\:h-auto{
-    height: auto;
-  }
-
   .md\:w-96{
     width: 24rem;
   }
 
-  .md\:w-auto{
-    width: auto;
+  .md\:w-3\/5{
+    width: 60%;
+  }
+
+  .md\:w-1\/4{
+    width: 25%;
+  }
+
+  .md\:w-1\/2{
+    width: 50%;
   }
 
   .md\:grid-cols-2{
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .md\:grid-cols-4{
-    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .md\:grid-cols-3{
