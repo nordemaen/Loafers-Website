@@ -6,3 +6,7 @@
     transition-timing-function: ease-in;
     transition: 2s;
 }
+
+#subscribe-input:focus {
+    border: 2px solid gray;
+}
