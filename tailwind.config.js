@@ -1,4 +1,5 @@
 module.exports = {
+  // RUN TIME
   content: ["./public/**/*.{html, js}"],
   theme: {
     extend: {
@@ -8,6 +9,7 @@ module.exports = {
         secondary: '#9bb7bd'
       }
     },
+    // Custom Fonts
     fontFamily: { 
       roboto: ['Roboto', 'sans-serif'],
       monstserrat: ['Montserrat', 'sans-serif']

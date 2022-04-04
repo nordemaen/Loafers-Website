@@ -12,6 +12,7 @@ scrollTop.addEventListener("click", function() {
 });
 
 function checkScroll() {
+    // Toggle button
     if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
         scrollTop.style.display = 'block';
     }
@@ -20,4 +21,5 @@ function checkScroll() {
     }
 }
 
+// If Scroll is greater than 20 then call function
 window.onscroll = function() { checkScroll() };
